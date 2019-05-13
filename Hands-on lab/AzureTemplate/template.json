@@ -17,6 +17,9 @@
     },
     "userObjectId": {
       "type": "string"
+    },
+    "logAnalyticsWorkspaceName": {
+      "type":"string"
     }
   },
   "variables": {
@@ -36,9 +39,9 @@
   "resources": [
 	{
             "type": "microsoft.operationalinsights/workspaces",
-            "name": "azsecuritylogging",
+            "name": "[parameters('logAnalyticsWorkspaceName')]",
             "apiVersion": "2015-11-01-preview",
-            "location": "eastus",
+            "location": "westeurope",
             "scale": null,
             "properties": {
                 "sku": {
