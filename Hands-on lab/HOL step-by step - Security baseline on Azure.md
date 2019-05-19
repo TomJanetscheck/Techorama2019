@@ -187,6 +187,7 @@ Synopsis: In this exercise, attendees will secure a Privileged Access Workstatio
 ## Exercise 2: Securing the Web Application and database
 
 Duration: 45 minutes
+PreReq: Visual Studio and SQL Server Management Studio
 
 Synopsis: In this exercise, attendees will utilize Azure SQL features to data mask database data and utilize Azure Key Vault to encrypt sensitive columns for users and applications that query the database.
 
@@ -435,6 +436,7 @@ Synopsis: In this exercise, attendees will utilize Azure SQL features to data ma
 ## Exercise 3: Migrating to Azure Key Vault
 
 Duration: 30 minutes
+PreReq: Visual Studio
 
 Synopsis: In this exercise, attendees will learn how to migrate web application to utilize Azure Key Vault rather than storing valuable credentials (such as connection strings) in application configuration files.
 
